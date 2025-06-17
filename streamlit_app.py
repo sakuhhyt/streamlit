@@ -52,7 +52,7 @@ async def main():
     run_backend()
 
 # 启动部署按钮
-if st.button("🚀 启动部署"):
+if st.button("启动部署"):
     if not st.session_state.running:
         threading.Thread(target=lambda: asyncio.run(main()), daemon=True).start()
         st.success("✅ 已开始执行部署任务")
