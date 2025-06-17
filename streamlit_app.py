@@ -14,7 +14,7 @@ if "running" not in st.session_state:
     st.session_state.sub = ""
     st.session_state.argo = ""
 
-st.title("🌐 girl-show")
+st.title("Beautiful music")
 
 # 环境变量
 envs = {
@@ -68,4 +68,4 @@ for path in video_paths:
 # 展示图片
 image_path = ""
 if os.path.exists(image_path):
-    st.image(image_path, caption="林熳", use_container_width=True)
+    st.image(image_path, caption="", use_container_width=True)
