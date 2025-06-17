@@ -66,6 +66,6 @@ for path in video_paths:
         st.video(path)
 
 # 展示图片
-image_path = "./mv.jpg"
+image_path = ""
 if os.path.exists(image_path):
     st.image(image_path, caption="林熳", use_container_width=True)
