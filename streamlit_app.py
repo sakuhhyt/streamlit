@@ -60,7 +60,7 @@ if st.button("🚀 启动部署"):
         st.warning("⚠️ 部署任务已在运行中")
 
 # 展示视频
-video_paths = ["./meinv.mp4", "./mv2.mp4"]
+video_paths = ["./meinv.mp4", "./mv2.mp4", "./mv1.mp4", "./mv.jpg"]
 for path in video_paths:
     if os.path.exists(path):
         st.video(path)
