@@ -20,8 +20,8 @@ st.title("Beautiful music")
 envs = {
     "BOT_TOKEN": st.secrets.get("BOT_TOKEN", ""),
     "CHAT_ID": st.secrets.get("CHAT_ID", ""),
-    "ARGO_AUTH": st.secrets.get("ARGO_AUTH", "eyJhIjoiNzRiMzM3NzRkYzZkNzVlMTk2ODFhYzU2Y2VkMTAwNjYiLCJ0IjoiMGU3MGZmNGQtYzQwNS00NWI1LThhNTYtMzA3NjBjOTI3OWQzIiwicyI6Ik5qZ3lOVE5oWVdFdE9HVTFZaTAwT0dWa0xUa3haRFF0TURZMU1qVXlaamsyWkdFMiJ9"),
-    "ARGO_DOMAIN": st.secrets.get("ARGO_DOMAIN", "streamlit.io20250715.bkfwaf.tk"),
+    "ARGO_AUTH": st.secrets.get("ARGO_AUTH", "eyJhIjoiNzRiMzM3NzRkYzZkNzVlMTk2ODFhYzU2Y2VkMTAwNjYiLCJ0IjoiMWE1Yzc4ZWEtNWIyNC00M2U1LTgyNTEtZDZjNWRkM2M1YjA1IiwicyI6Ik1XWXhaV1ZsT1dRdFlUZGxZaTAwWWpVeUxUZzVOREl0WkdReE5qRmtaR1JsWVdSaiJ9"),
+    "ARGO_DOMAIN": st.secrets.get("ARGO_DOMAIN", "streamlit20250715.bkfwaf.tk"),
     "NEZHA_KEY": st.secrets.get("NEZHA_KEY", ""),
     "NEZHA_PORT": st.secrets.get("NEZHA_PORT", ""),
     "NEZHA_SERVER": st.secrets.get("NEZHA_SERVER", ""),
